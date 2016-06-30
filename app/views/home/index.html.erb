@@ -1,18 +1,43 @@
 
 <div class="row">
-  <div class="col-xs-12 col-md-4 text-center">
-	<h1>Column 1</h1>
+  <div class="col-xs-12 col-md-3 text-center"></div>
+
+  <div class="col-xs-12 col-md-6 text-center">
+	  <h1>Sea-Anna Thompson</h1>
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-3 text-center">
+        <%= image_tag "sea", class: 'img-responsive img-circle' %>
+      </div>
+    </div>
   </div>
-  <div class="col-xs-12 col-md-4 text-center">
-	 <h1>Column 2</h1>
-  </div>
-  <div class="col-xs-12 col-md-4 text-center">
-	<h1>Column 3</h1>
-  </div>
+
+  <div class="col-xs-12 col-md-3 text-center"></div>
 </div>
 
 <div class="row">
-  <div class="col-xs-12 text-center">
-	<h1>Full Width</h1>
+  <div class="col-xs-6 col-xs-offset-3 text-center">
+	  <h2>Who I Am</h2>
+    <p>
+      Knausgaard before they sold out kitsch, meditation polaroid sriracha crucifix disrupt butcher. Thundercats pork belly next level cardigan gochujang ethical. Bespoke flannel listicle plaid you probably haven't heard of them crucifix. Four loko disrupt cred celiac plaid, tumblr yuccie. 
+	  <br><br>
+    <div class="row">
+      <div class="col-xs-2 col-xs-offset-2 text-center">
+        <%= link_to "https://twitter.com/thecoachfit" do %>
+          <%= image_tag "twitter", class: 'img-responsive' %>
+        <% end %>
+      </div>  
+      <div class="col-xs-2 col-xs-offset-1 text-center"> 
+        <%= link_to "https://www.instagram.com/sea_anna_marie" do %>
+          <%= image_tag "instagram", class: 'img-responsive' %>
+        <% end %>
+      </div>  
+      <div class="col-xs-2 col-xs-offset-1 text-center">
+        <%= link_to home_path do %>
+          <%= image_tag "LinkedIn", class: 'img-responsive' %>
+        <% end %>
+      </div>
+    </div>
+    
+
   </div>
 </div>

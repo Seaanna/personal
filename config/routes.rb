@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
-  get 'home/index'
+  resources :projects
+  # url,    controller/action,    view_path
+  get 'home/index', to: 'home#index', as: 'home'
+
+  get 'blog', to: 'blog#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

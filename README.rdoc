@@ -26,3 +26,15 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+
+MVC (model, view, controller)
+
+Common commands
+******************************************************
+To get to the project...
+cd C:/sites/website
+
+Ruby and Rails are Object Oriented... meaning your code relates to objects in the real world
+car = Car.find(1)
+car.max_speed = 150
