@@ -15,3 +15,8 @@
 /log/*
 !/log/.keep
 /tmp
+
+#Ignore Rubymine editor files
+.idea/*
+
+/.env
