@@ -13,6 +13,42 @@
  *= require_tree .
  *= require_self
  */
+ @font-face {
+   font-family: "Paint";
+   src: font-url("Paint.ttf") format("truetype");
+ }
+
+ .paint{
+   font-family: "Paint" !important;
+ }
+
+  @font-face {
+    font-family: "NixieOne";
+    src: font-url("NixieOne.ttf") format("truetype");
+  }
+
+  .nixie{
+    font-family: "NixieOne" !important;
+  }
+
+  @font-face {
+    font-family: "Alpha";
+    src: font-url("Alpha.ttf") format("truetype");
+  }
+
+  .alpha{
+    font-family: "Alpha" !important;
+  }
+
+
+ @font-face {
+   font-family: "Carton_Six";
+   src: font-url("Carton_Six.ttf") format("truetype");
+ }
+
+ .carton{
+   font-family: "Carton_Six" !important;
+ }
 
 @font-face {
   font-family: "Pretty";
@@ -46,7 +82,7 @@
 }
 
 .padding_top{
-  padding-top: 8px;
+  padding-top: 6px;
 }
 
 .space-32 {
@@ -219,8 +255,14 @@
   line-height: 1.3em;
 }
 
+.really_big{
+  font-size: 2.3em !important;
+  line-height: 1.2em;
+}
+
 .huge{
   font-size: 3em !important;
+  line-height: 1.3em;
 }
 
 .sea_pic{
@@ -265,4 +307,8 @@ ul {
     list-style-type: none;
     margin-bottom: 0px;
     padding: 0px;
+}
+
+.bold{
+  font-weight: bold;
 }
