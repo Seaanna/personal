@@ -433,8 +433,20 @@ ul {
 }
 
 
+
+
 .fixed-bg_interest {
-    background-image: image-url("flow_cactus.jpg");
+    background-image: image-url("road.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fixed-bg_hire {
+    background-image: image-url("sand.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
