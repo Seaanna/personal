@@ -13,6 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ .border {
+  border: solid white;
+ }
+
+ .name {
+   color: white;
+ }
+
+ .background_color{
+   background-color: #a36386;
+ }
+
  @font-face {
    font-family: "Paint";
    src: font-url("Paint.ttf") format("truetype");
@@ -229,6 +242,10 @@
   max-width: 50px;
 }
 
+.max_40{
+  max-width: 40px;
+}
+
 .no_wrap{
   white-space: nowrap;
 }
@@ -265,9 +282,25 @@
   line-height: 1.3em;
 }
 
-.sea_pic{
+.huge_name{
+  font-size: 4em !important;
+  line-height: 1.3em;
+}
+
+
+.white_border{
   border: 1px solid white;
   border-radius: 10px;
+}
+
+.text_padding{
+  padding: 15px 8px;
+}
+
+.car_sim, .address_pic, .battleship_pic, .wild_pic {
+  border: 1px solid black;
+  border-radius: 10px;
+
 }
 
 .teal_background{
@@ -311,4 +344,112 @@ ul {
 
 .bold{
   font-weight: bold;
+}
+
+// Carousel
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+
+}
+.carousel-caption {
+      max-width: 550px;
+      padding: 0 20px;
+      margin:0 auto;
+      margin-top: 200px;
+      text-align:center;
+      color: black !important;
+
+}
+
+.carousel-indicators li {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+.carousel-inner {
+   margin-bottom:50px;
+}
+// Nav bar
+
+
+.moving_nav{
+  float: right;
+}
+@media(min-width:767px) {
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+// text color
+.name_hang{
+  color: #a35c90;
+}
+
+// fixed image backgrounds
+
+.fixed-bg {
+    background-image: image-url("suc_dark.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.fixed-bg_interest {
+    background-image: image-url("flow_cactus.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.no_padding{
+  padding: 0 !important;
+}
+
+.glyphicon {
+  color: #A35C90;
+}
+
+.glyphicon:hover {
+  color: #824973;
 }

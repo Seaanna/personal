@@ -1,127 +1,220 @@
 
+<div class="row fixed-bg">
+  <div class="col-xs-12">
+    <div class="row">
+      <div class="col-xs-12 col-md-2 text-center"></div>
+      <div class="col-xs-12 col-md-8 text-center">
+        <div class="space-10"></div>
+        <h1 class="pretty huge_name bold name">Sea-Anna Thompson</h1>
+        <div class="space-16"></div>
+        <div class="row">
+          <!-- divind out each column how it is needed on different screen sizess. the offset allows a given column to the left and by default given the same amount of offset on the right. This row helps adjust the image -->
+          <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
+            <!-- Rubycode image is a build in method, class is described on the image to be responsive and turns the image into the html tags. sea_pic is a class in css to give the image rounded edges -->
+            <%= image_tag "profesh.jpg", class: 'img-responsive white_border' %>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-2 text-center"></div>
+    </div>
+
+
+    <div class="row open_sans">
+      <!-- allow for more space than the adjustment above for the image -->
+      <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 text-center">
+        <!-- definig the font, padding, margins, and text size for heading -->
+        <div class="bigger">
+          <h2 class="hanging text-center padding_top no_margin_top huge name">Who I Am</h2>
+        </div>
+        <div class="row">
+          <!-- want all columns to be lined up top to bottom when the screen is xs -->
+          <div class="col-xs-12">
+            <div class="space-14"></div>
+          </div>
+        </div>
+        <p class="bigger border white_border background_color name text_padding">
+          My name is Sea-Anna Thompson and I have background in kinesiology and communications. After running my own business online for a year, I wanted to learn more about design and building a website. I am currently a student at Learn Academy learning full-stack development and I love Ruby on Rails.</p>
+          <div class="row">
+            <!-- want all columns to be lined up top to bottom when the screen is xs -->
+            <div class="col-xs-12">
+              <div class="space-30"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="row open_sans teal_background black_border_top">
+    <div class="col-xs-10 col-xs-offset-1">
+      <div class="bigger">
+        <h2 class="hanging text-center padding_top no_margin_top huge">Skills</h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="space-30"></div>
+        </div>
+      </div>
+      <div class="row really_big paint text-center">
+        <div class="col-xs-12 col-sm-6">
+          <ul>
+            <li>RUBY</li>
+            <li>RAILS</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JAVASCRIPT</li>
+            <li>JQUERY</li>
+            <li>BOOTSTRAP</li>
+            <li>AGILE</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <ul>
+            <li>GIT</li>
+            <li>GITHUB</li>
+            <li>POSTGRES</li>
+            <li>MYSQL</li>
+            <li>HEROKU</li>
+            <li>TDD</li>
+            <li>BDD</li>
+            <li>CAPYBARA</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12">
+      <div class="space-30"></div>
+      <div class="space-30"></div>
+      <div class="space-30"></div>
+    </div>
+  </div>
+
+  <div class="row carton fixed-bg_interest  black_border_top name">
+    <div class="col-xs-10 col-xs-offset-1">
+      <div class="bigger">
+        <h2 class="hanging text-center padding_top no_margin_top huge">Interests</h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="space-30"></div>
+        </div>
+      </div>
+      <div class="row really_big text-center">
+        <div class="col-xs-12 col-sm-6 name">
+          <ul>
+            <li>Running <i class="fa fa-heartbeat margin_left" aria-hidden="true"></i></li>
+            <li>Fitness/Crossfit <i class="fa fa-child margin_left" aria-hidden="true"></i></li>
+            <li>Coding <i class="fa fa-laptop margin_left" aria-hidden="true"></i></li>
+            <li>Reading <i class="fa fa-book margin_left" aria-hidden="true"></i></li>
+            <li>Movies <i class="fa fa-film margin_left" aria-hidden="true"></i></li>
+            <li>Cooking <i class="fa fa-cutlery margin_left" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <ul>
+            <li>Outdoors <i class="fa fa-tree margin_left" aria-hidden="true"></i></li>
+            <li>Snowboarding <i class="fa fa-bomb margin_left" aria-hidden="true"></i></li>
+            <li>San Diego <i class="fa fa-smile-o margin_left" aria-hidden="true"></i></li>
+            <li>Beach <i class="fa fa-sun-o margin_left" aria-hidden="true"></i></li>
+            <li>Skateboarding <i class="fa fa-thumbs-o-up margin_left" aria-hidden="true"></i></li>
+            <li>Craft Beer <i class="fa fa-beer margin_left" aria-hidden="true"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12">
+      <div class="space-30"></div>
+      <div class="space-30"></div>
+      <div class="space-30"></div>
+    </div>
+  </div>
+
+
+  <!-- section for projects -->
+
+  <div class="row carton black_border_top">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <div class="bigger">
+        <h2 class="hanging text-center padding_top no_margin_top huge">Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="space-30"></div>
+        </div>
+      </div>
+
+      <div class="hidden-xs col-sm-2 text-center biggest">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="space-30"></div>
+          </div>
+        </div>
+        <a class="carousel-control.left" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-8 text-center no_padding">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <%= link_to "https://car-simulator.herokuapp.com/" do %>
+              <%= image_tag "car_sim.png", class: 'img-responsive car_sim' %>
+              <% end %>
+              </div>
+
+            <div class="item">
+              <%= link_to "https://seas-address-book.herokuapp.com/" do %>
+              <%= image_tag "address.png", class: 'img-responsive address_pic' %>
+              <% end %>
+            </div>
+
+            <div class="item">
+              <%= image_tag "battleship.png", class: 'img-responsive battleship_pic' %>
+            </div>
+
+            <div class="item">
+              <%= image_tag "wildlife.png", class: 'img-responsive wild_pic' %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden-xs col-sm-2 text-center biggest">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="space-30"></div>
+          </div>
+        </div>
+        <a class="carousel-control.right" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
 <div class="row">
-  <div class="col-xs-12 col-md-3 text-center"></div>
-  <div class="col-xs-12 col-md-6 text-center">
-    <div class="space-10"></div>
-	  <h1 class="pretty huge">Sea-Anna Thompson</h1>
-    <div class="space-16"></div>
-    <div class="row">
-      <!-- divind out each column how it is needed on different screen sizess. the offset allows a given column to the left and by default given the same amount of offset on the right. This row helps adjust the image -->
-      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 text-center">
-        <!-- Rubycode image is a build in method, class is described on the image to be responsive and turns the image into the html tags. sea_pic is a class in css to give the image rounded edges -->
-        <%= image_tag "sea.jpg", class: 'img-responsive sea_pic' %>
-      </div>
-    </div>
-  </div>
-  <div class="col-xs-12 col-md-3 text-center"></div>
-</div>
-
-
-<div class="row open_sans">
-  <!-- allow for more space than the adjustment above for the image -->
-  <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 text-center">
-    <!-- definig the font, padding, margins, and text size for heading -->
-    <div class="bigger">
-      <h2 class="hanging text-center padding_top no_margin_top huge">Who I Am</h2>
-    </div>
-    <div class="row">
-      <!-- want all columns to be lined up top to bottom when the screen is xs -->
-      <div class="col-xs-12">
-
-        <div class="space-14"></div>
-      </div>
-    </div>
-    <p class="bigger">
-      Hi, my  name  is Sea-Anna. I am a fitness nut gone programmer. My witty comments and sense of humor make me easy to work with! Checkout my Github and Twitter to see the projects I am working on.</p>
-  </div>
   <div class="col-xs-12">
     <div class="space-30"></div>
     <div class="space-30"></div>
   </div>
 </div>
+<!-- end of project section -->
 
-<div class="row open_sans teal_background black_border_top">
-  <div class="col-xs-10 col-xs-offset-1">
-    <div class="bigger">
-      <h2 class="hanging text-center padding_top no_margin_top huge">Skills</h2>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="space-30"></div>
-      </div>
-    </div>
-    <div class="row really_big paint text-center">
-      <div class="col-xs-12 col-sm-6">
-        <ul>
-          <li>RUBY</li>
-          <li>RAILS</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JAVASCRIPT</li>
-          <li>JQUERY</li>
-          <li>BOOTSTRAP</li>
-        </ul>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <ul>
-          <li>GIT</li>
-          <li>GITHUB</li>
-          <li>POSTGRES</li>
-          <li>MYSQL</li>
-          <li>HEROKU</li>
-          <li>TDD</li>
-          <li>BDD</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col-xs-12">
-    <div class="space-30"></div>
-    <div class="space-30"></div>
-    <div class="space-30"></div>
-  </div>
-</div>
-
-<div class="row carton lightteal_background black_border_top">
-  <div class="col-xs-10 col-xs-offset-1">
-    <div class="bigger">
-      <h2 class="hanging text-center padding_top no_margin_top huge">Interests</h2>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="space-30"></div>
-      </div>
-    </div>
-    <div class="row really_big text-center">
-      <div class="col-xs-12 col-sm-6">
-        <ul>
-          <li>Running <i class="fa fa-heartbeat margin_left" aria-hidden="true"></i></li>
-          <li>Fitness/Crossfit <i class="fa fa-child margin_left" aria-hidden="true"></i></li>
-          <li>Coding <i class="fa fa-laptop margin_left" aria-hidden="true"></i></li>
-          <li>Reading <i class="fa fa-book margin_left" aria-hidden="true"></i></li>
-          <li>Movies <i class="fa fa-film margin_left" aria-hidden="true"></i></li>
-          <li>Cooking <i class="fa fa-cutlery margin_left" aria-hidden="true"></i></li>
-        </ul>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <ul>
-          <li>Outdoors <i class="fa fa-tree margin_left" aria-hidden="true"></i></li>
-          <li>Snowboarding <i class="fa fa-bomb margin_left" aria-hidden="true"></i></li>
-          <li>San Diego <i class="fa fa-smile-o margin_left" aria-hidden="true"></i></li>
-          <li>Beach <i class="fa fa-sun-o margin_left" aria-hidden="true"></i></li>
-          <li>Skateboarding <i class="fa fa-thumbs-o-up margin_left" aria-hidden="true"></i></li>
-          <li>Craft Beer <i class="fa fa-beer margin_left" aria-hidden="true"></i></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="col-xs-12">
-    <div class="space-30"></div>
-    <div class="space-30"></div>
-    <div class="space-30"></div>
-  </div>
-</div>
-
+<!-- Hire me section -->
 <div class="row open_sans lightgreen_background black_border_top">
   <div class="col-xs-12">
     <div class="bigger">
@@ -140,7 +233,7 @@
           <li>Quick Learner</li>
           <li>Hard Worker</li>
           <li>Work well in Teams</li>
-          <li>$50-60/hr</li>
+          <li>Motivated</li>
           <li>#WomenInTech</li>
         </ul>
       </div>
@@ -156,8 +249,9 @@
     <div class="space-30"></div>
   </div>
 </div>
+<!-- end of Hire Me -->
 
-
+<!-- Start of Footer :Follow me with links to important pages -->
 <div class="row black_border_top">
   <div class="space-12"></div>
   <div class="pretty big text-center">Follow Me:</div>
@@ -192,3 +286,4 @@
     <div class="space-8"></div>
   </div>
 </div>
+<!-- end of footer -->
