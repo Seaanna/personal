@@ -293,6 +293,10 @@
   border-radius: 10px;
 }
 
+.white_border_top {
+  border-top: 1px solid white;
+}
+
 .text_padding{
   padding: 15px 8px;
 }
@@ -301,18 +305,6 @@
   border: 1px solid black;
   border-radius: 10px;
 
-}
-
-.teal_background{
-  background-color: #40aea5;
-}
-
-.lightteal_background{
-  background-color: #9bd3ae;
-}
-
-.lightgreen_background{
-  background-color: #e7f0c1;
 }
 
 .no_margin_top{
@@ -347,10 +339,16 @@ ul {
 }
 
 // Carousel
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
 .carousel-control.right, .carousel-control.left {
   background-image:none;
 
 }
+
 .carousel-caption {
       max-width: 550px;
       padding: 0 20px;
@@ -369,8 +367,17 @@ ul {
 .carousel-inner {
    margin-bottom:50px;
 }
-// Nav bar
 
+.glyphicon {
+  color: #A35C90;
+}
+
+.glyphicon:hover {
+  color: #824973;
+}
+
+
+// Nav bar
 
 .moving_nav{
   float: right;
@@ -417,22 +424,25 @@ ul {
 }
 
 // text color
+
 .name_hang{
   color: #a35c90;
+}
+
+.text_purple {
+  color: #42315E;
 }
 
 // fixed image backgrounds
 
 .fixed-bg {
-    background-image: image-url("suc_dark.jpg");
+    background-image: image-url("dark_succulent.png");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 
 .fixed-bg_interest {
@@ -454,14 +464,7 @@ ul {
     background-size: cover;
 }
 
+
 .no_padding{
   padding: 0 !important;
-}
-
-.glyphicon {
-  color: #A35C90;
-}
-
-.glyphicon:hover {
-  color: #824973;
 }

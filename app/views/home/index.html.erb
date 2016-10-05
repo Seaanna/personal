@@ -32,7 +32,7 @@
             <div class="space-14"></div>
           </div>
         </div>
-        <p class="bigger border white_border background_color name text_padding">
+        <p class="bigger border white_border background_color name text_padding open_sans">
           My name is Sea-Anna Thompson and I have background in kinesiology and communications. After running my own business online for a year, I wanted to learn more about design and building a website. I am currently a student at Learn Academy learning full-stack development and I love Ruby on Rails.</p>
           <div class="row">
             <!-- want all columns to be lined up top to bottom when the screen is xs -->
@@ -49,7 +49,7 @@
 
 
 
-  <div class="row open_sans teal_background black_border_top">
+  <div class="row open_sans black_border_top">
     <div class="col-xs-10 col-xs-offset-1">
       <div class="bigger">
         <h2 class="hanging text-center padding_top no_margin_top huge">Skills</h2>
@@ -59,7 +59,7 @@
           <div class="space-30"></div>
         </div>
       </div>
-      <div class="row really_big paint text-center">
+      <div class="row really_big paint text_purple text-center">
         <div class="col-xs-12 col-sm-6">
           <ul>
             <li>RUBY</li>
@@ -93,7 +93,7 @@
     </div>
   </div>
 
-  <div class="row carton fixed-bg_interest  black_border_top name">
+  <div class="row carton fixed-bg_interest  white_border_top name">
     <div class="col-xs-10 col-xs-offset-1">
       <div class="bigger">
         <h2 class="hanging text-center padding_top no_margin_top huge">Interests</h2>
@@ -159,8 +159,8 @@
         </a>
       </div>
       <div class="col-xs-12 col-sm-8 text-center no_padding">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
+        <div id="myCarousel" class="carousel slide text_center" data-ride="carousel">
+          <!-- Indicators, may take out because they are not as functional as previously thought -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -171,23 +171,26 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <%= link_to "https://car-simulator.herokuapp.com/" do %>
+              <!-- <%= link_to "https://car-simulator.herokuapp.com/" do %> -->
               <%= image_tag "car_sim.png", class: 'img-responsive car_sim' %>
-              <% end %>
+              <!-- <% end %> -->
               </div>
 
             <div class="item">
-              <%= link_to "https://seas-address-book.herokuapp.com/" do %>
+              <!-- <%= link_to "https://seas-address-book.herokuapp.com/" do %> -->
               <%= image_tag "address.png", class: 'img-responsive address_pic' %>
-              <% end %>
+              <!-- <% end %> -->
+                  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies iaculis nisi, eget blandit ligula mollis nec. Proin molestie arcu quis malesuada tincidunt. Duis consectetur orci erat, sed commodo tellus accumsan at. Nullam in leo efficitur, tempor sem quis, tempor eros. Aliquam vestibulum quam sit amet imperdiet rutrum. Nunc tincidunt lectus in orci dapibus tincidunt. Sed vitae congue est. Proin commodo varius dolor, nec aliquam metus auctor vitae. Praesent euismod nisl eu condimentum pharetra. Nunc posuere velit nibh, in iaculis erat mattis vitae. Duis eu ante vehicula, facilisis ligula quis, imperdiet ex. Suspendisse venenatis quis dolor ac congue. Ut dictum felis ut blandit ultricies. </p> -->
             </div>
 
             <div class="item">
               <%= image_tag "battleship.png", class: 'img-responsive battleship_pic' %>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies iaculis nisi, eget blandit ligula mollis nec. Proin molestie arcu quis malesuada tincidunt. Duis consectetur orci erat, sed commodo tellus accumsan at. Nullam in leo efficitur, tempor sem quis, tempor eros. Aliquam vestibulum quam sit amet imperdiet rutrum. Nunc tincidunt lectus in orci dapibus tincidunt. Sed vitae congue est. Proin commodo varius dolor, nec aliquam metus auctor vitae. Praesent euismod nisl eu condimentum pharetra. Nunc posuere velit nibh, in iaculis erat mattis vitae. Duis eu ante vehicula, facilisis ligula quis, imperdiet ex. Suspendisse venenatis quis dolor ac congue. Ut dictum felis ut blandit ultricies. </p> -->
             </div>
 
             <div class="item">
               <%= image_tag "wildlife.png", class: 'img-responsive wild_pic' %>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies iaculis nisi, eget blandit ligula mollis nec. Proin molestie arcu quis malesuada tincidunt. Duis consectetur orci erat, sed commodo tellus accumsan at. Nullam in leo efficitur, tempor sem quis, tempor eros. Aliquam vestibulum quam sit amet imperdiet rutrum. Nunc tincidunt lectus in orci dapibus tincidunt. Sed vitae congue est. Proin commodo varius dolor, nec aliquam metus auctor vitae. Praesent euismod nisl eu condimentum pharetra. Nunc posuere velit nibh, in iaculis erat mattis vitae. Duis eu ante vehicula, facilisis ligula quis, imperdiet ex. Suspendisse venenatis quis dolor ac congue. Ut dictum felis ut blandit ultricies. </p> -->
             </div>
           </div>
         </div>
@@ -215,7 +218,7 @@
 <!-- end of project section -->
 
 <!-- Hire me section -->
-<div class="row open_sans lightgreen_background black_border_top fixed-bg_hire">
+<div class="row open_sans black_border_top fixed-bg_hire">
   <div class="col-xs-12">
     <div class="bigger">
       <h2 class="hanging text-center padding_top no_margin_top huge">Hire Me</h2>
@@ -225,7 +228,7 @@
         <div class="space-20"></div>
       </div>
     </div>
-    <div class="row bigger alpha text-center">
+    <div class="row bigger text_purple alpha text-center">
       <div class="col-xs-12 biggest">
         <ul>
           <li>Reliable</li>
@@ -239,7 +242,7 @@
       </div>
     </div>
   </div>
-  <div class="col-xs-12 bigger nixie bold">
+  <div class="col-xs-12 biggest nixie bold name">
     <div class="space-18"></div>
     <p class="text-center">"It's not the smartest or the strongest that survive. It's those who adapt the quickest." - Charles Darwin</p>
     <div class="space-8"></div>
@@ -252,7 +255,7 @@
 <!-- end of Hire Me -->
 
 <!-- Start of Footer :Follow me with links to important pages -->
-<div class="row black_border_top">
+<div class="row white_border_top">
   <div class="space-12"></div>
   <div class="pretty big text-center">Follow Me:</div>
   <div class="space-12"></div>
@@ -271,7 +274,6 @@
       <%= image_tag "LinkedIn.png", class: 'max_50' %>
     <% end %>
   </div>
-
   <div class="col-xs-12">
     <div class="space-14"></div>
   </div>
