@@ -22,8 +22,12 @@
    color: white;
  }
 
+ .name_color {
+   color: #42315E;
+ }
+
  .background_color{
-   background-color: #a36386;
+   background-color: #B39E97;
  }
 
  @font-face {
@@ -303,8 +307,7 @@
 
 .car_sim, .address_pic, .battleship_pic, .wild_pic {
   border: 1px solid black;
-  border-radius: 10px;
-
+  text-align: center;
 }
 
 .no_margin_top{
@@ -456,7 +459,7 @@ ul {
 
 
 .fixed-bg_hire {
-    background-image: image-url("sand.jpg");
+    background-image: image-url("wood.png");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
