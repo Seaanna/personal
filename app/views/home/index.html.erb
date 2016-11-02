@@ -147,7 +147,6 @@
           </div>
         </div>
       </div>
-
       <div class="row">
         <div class="col-xs-12 col-md-12">
           <%= image_tag "women_hackers.jpg", class: 'img-responsive car_sim center-block' %>
@@ -160,7 +159,6 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
 <!--space for interests-->
@@ -207,7 +205,7 @@
 
 <!-- section for projects -->
 
-<div class="row carton black_border_top background_color">
+<div class="row alpha black_border_top background_color">
   <div class="col-xs-12 col-sm-10 col-sm-offset-1">
     <div class="bigger">
       <h2 class="hanging text-center padding_top no_margin_top huge">Projects</h2>
@@ -217,29 +215,61 @@
         <div class="space-30"></div>
       </div>
     </div>
-    <div class="col-sm-3 text-center">
+    <div class="col-sm-6 text-center">
       <%= link_to "https://car-simulator.herokuapp.com/" do %>
-      <%= image_tag "car_sim.png", class: 'img-responsive car_sim' %>
+      <h2>Car Simulator</h2>
       <% end %>
+      <h3>Create a car then see what arguments it takes.</h3>
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <%= image_tag "car_sim.png", class: 'img-responsive car_sim center-block' %>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="space-14"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-12">
+          <%= link_to "https://seas-address-book.herokuapp.com/" do %>
+          <h2>Address Book</h2>
+          <% end %>
+          <h3>Create, Edit, Destroy people from this online address book</h3>
+          <%= image_tag "address.png", class: 'img-responsive address_pic center-block' %>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="space-14"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div class="col-xs-12 col-sm-3 text-center">
-      <%= link_to "https://seas-address-book.herokuapp.com/" do %>
-      <%= image_tag "address.png", class: 'img-responsive address_pic' %>
-      <% end %>
-    </div>
-
-    <div class="col-xs-12 col-sm-3 text-center">
-      <%= image_tag "battleship.png", class: 'img-responsive battleship_pic' %>
-    </div>
-
-    <div class="col-xs-12 col-sm-3 text-center">
-      <%= image_tag "wildlife.png", class: 'img-responsive wild_pic' %>
-    </div>
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="space-30"></div>
-        <div class="space-30"></div>
+    <div class="col-sm-6 text-center">
+      <h2>Battle Ship</h2>
+      <h3>Based off original board game. Play against the computer</h3>
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <%= image_tag "battleship.png", class: 'img-responsive car_sim center-block' %>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="space-14"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <%= link_to "http://wild-tracker.herokuapp.com/" do %>
+          <h2>Wildlife Tracker</h2>
+          <% end %>
+          <h3>Keep track and search your wildlife adventure finds!</h3>
+          <%= image_tag "Wild_tracker.png", class: 'img-responsive car_sim center-block' %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="space-30"></div>
+          <div class="space-30"></div>
+        </div>
       </div>
     </div>
   </div>
