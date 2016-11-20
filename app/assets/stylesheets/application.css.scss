@@ -27,7 +27,7 @@
  }
 
  .background_color{
-   background-color: #B39E97;
+   background-color: #987985;
  }
 
  @font-face {
@@ -341,45 +341,6 @@ ul {
   font-weight: bold;
 }
 
-// Carousel
-.carousel-inner > .item > img {
-    margin: 0 auto;
-}
-
-
-.carousel-control.right, .carousel-control.left {
-  background-image:none;
-
-}
-
-.carousel-caption {
-      max-width: 550px;
-      padding: 0 20px;
-      margin:0 auto;
-      margin-top: 200px;
-      text-align:center;
-      color: black !important;
-
-}
-
-.carousel-indicators li {
-  background-color: black !important;
-  border-color: black !important;
-}
-
-.carousel-inner {
-   margin-bottom:50px;
-}
-
-.glyphicon {
-  color: #A35C90;
-}
-
-.glyphicon:hover {
-  color: #824973;
-}
-
-
 // Nav bar
 
 .moving_nav{
@@ -439,7 +400,7 @@ ul {
 // fixed image backgrounds
 
 .fixed-bg {
-    background-image: image-url("dark_succulent.png");
+    background-image: image-url("suc_dark.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -470,4 +431,30 @@ ul {
 
 .no_padding{
   padding: 0 !important;
+}
+
+//Links
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #311d54;
+}
+
+/* selected link */
+a:active {
+    color: #42315E;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+  color: #fff;
 }
