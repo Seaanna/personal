@@ -458,3 +458,7 @@ a:link {
 a {
   color: #fff;
 }
+
+.transparent_background, .transparent_background:hover{
+  background-color: transparent !important;
+}
