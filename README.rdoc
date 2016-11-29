@@ -1,40 +1,20 @@
-== README
+## Synopsis
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails application
+Using: Bootstrap3, Ruby, HTML5, CSS3
 
-Things you may want to cover:
+## Motivation
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I built this application because I wanted to test myself for my portfolio site. I wanted an easy way for someone to get to know me a little and see what some of the projects are I have been working on.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+## More Info
 
+View
+http://www.seaannathompson.com/
 
-MVC (model, view, controller)
+Twitter
+https://twitter.com/TheCoachFit\
 
-Common commands
-******************************************************
-To get to the project...
-cd C:/sites/website
-
-Ruby and Rails are Object Oriented... meaning your code relates to objects in the real world
-car = Car.find(1)
-car.max_speed = 150
+LinkedIn
+https://www.linkedin.com/in/sea-anna

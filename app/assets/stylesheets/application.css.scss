@@ -341,51 +341,7 @@ ul {
   font-weight: bold;
 }
 
-// Nav bar
 
-.moving_nav{
-  float: right;
-}
-@media(min-width:767px) {
-  .navbar {
-    padding: 20px 0;
-    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out;
-  }
-
-  .top-nav-collapse {
-    padding: 0;
-  }
-}
-
-.intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
-
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-}
-
-.services-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
-
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-}
 
 // text color
 
@@ -431,24 +387,6 @@ ul {
 
 .no_padding{
   padding: 0 !important;
-}
-
-//Links
-
-/* visited link */
-a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    color: #311d54;
-}
-
-/* selected link */
-a:active {
-    color: #42315E;
 }
 
 a:link {
