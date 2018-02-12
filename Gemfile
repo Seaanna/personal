@@ -9,7 +9,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg', '1.0.0' # Heroku uses Postgres forthe database
+  gem 'pg', '0.15' # Heroku uses Postgres forthe database
   gem 'rails_12factor' # Heroku specific gem
 end
 
