@@ -5,7 +5,7 @@ Using: Bootstrap3, Ruby, HTML5, CSS3
 
 Motivation
 
-I built this application because I wanted to test myself for my portfolio site. I wanted an easy way for someone to get to know me a little and see what some of the projects are I have been working on.
+I built this application because I wanted to test myself for my portfolio site. I wanted an easy way for someone to get to know me a little and see what some of the projects are I have been working on. 
 
 More Info
 
